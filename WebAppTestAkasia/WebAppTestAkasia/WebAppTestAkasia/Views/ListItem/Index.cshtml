@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "List Items";
+}
+
+@section head{
+    <style type="text/css">
+        label {
+            font-weight: normal;
+        }
+    </style>
+}
+
+<div class="container" style="margin: auto; width: 30%; padding: 25% 0%;">
+    
+        <p>Please select your item:</p>
+        <label id="honda" onmouseover="mouseOver('honda')" onmouseout="mouseOff('honda')">
+            <input type="radio" name="items" value="Honda" onclick="alert('Honda');">&nbsp;Honda
+        </label><br>
+        <label id="toyota" onmouseover="mouseOver('toyota')" onmouseout="mouseOff('toyota')">
+            <input type="radio" name="items" value="Toyota" onclick="alert('Toyota');">&nbsp;Toyota
+        </label><br>
+        <label id="ford" onmouseover="mouseOver('ford')" onmouseout="mouseOff('ford')">
+            <input type="radio" name="items" value="Ford" onclick="alert('Ford');">&nbsp;Ford
+        </label><br>
+        <label id="suzuki" onmouseover="mouseOver('suzuki')" onmouseout="mouseOff('suzuki')">
+            <input type="radio" name="items" value="Suzuki" onclick="alert('Suzuki');">&nbsp;Suzuki
+        </label><br>
+        <label id="mitsubishi" onmouseover="mouseOver('mitsubishi')" onmouseout="mouseOff('mitsubishi')">
+            <input type="radio" name="items" value="Mitsubishi" onclick="alert('Mitsubishi');" onmouseover="">&nbsp;Mitsubishi
+        </label><br>
+
+    
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(':radio').change(function () {
+            var radios = document.getElementsByName('items');
+            for (i = 0; i < radios.length; i++) {
+                var label = radios[i].parentElement;
+                if (radios[i].checked) {
+                    label.style = "font-weight: bold;";
+                } else {
+                    label.style = "font-weight: normal;";
+                }
+            }
+        });
+
+        function mouseOver(id) {
+            document.getElementById(id).style.backgroundColor = 'yellow';
+        }
+
+        function mouseOff(id) {
+            document.getElementById(id).style.backgroundColor = 'white';
+        }
+    </script>
+    }
+

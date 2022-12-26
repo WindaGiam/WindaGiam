@@ -1,0 +1,7 @@
+D:\Works Documents\Test Akasia\ConsoleAppTestAkasia\ConsoleAppTestAkasia\bin\Debug\ConsoleAppTestAkasia.exe.config
+D:\Works Documents\Test Akasia\ConsoleAppTestAkasia\ConsoleAppTestAkasia\bin\Debug\ConsoleAppTestAkasia.exe
+D:\Works Documents\Test Akasia\ConsoleAppTestAkasia\ConsoleAppTestAkasia\bin\Debug\ConsoleAppTestAkasia.pdb
+D:\Works Documents\Test Akasia\ConsoleAppTestAkasia\ConsoleAppTestAkasia\obj\Debug\ConsoleAppTestAkasia.csproj.AssemblyReference.cache
+D:\Works Documents\Test Akasia\ConsoleAppTestAkasia\ConsoleAppTestAkasia\obj\Debug\ConsoleAppTestAkasia.csproj.CoreCompileInputs.cache
+D:\Works Documents\Test Akasia\ConsoleAppTestAkasia\ConsoleAppTestAkasia\obj\Debug\ConsoleAppTestAkasia.exe
+D:\Works Documents\Test Akasia\ConsoleAppTestAkasia\ConsoleAppTestAkasia\obj\Debug\ConsoleAppTestAkasia.pdb
